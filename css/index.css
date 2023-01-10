@@ -1,0 +1,13 @@
+.header-menu {
+    height: 50px;
+}
+
+.header__banner {
+    background: url(../img/background-header.png);
+    height: 320px;
+    background-repeat: no-repeat;
+}
+.header__banner-title {
+    color: white;
+
+}
