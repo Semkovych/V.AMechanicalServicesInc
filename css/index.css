@@ -5,39 +5,54 @@
     margin: 0;
 }
 
-.header-menu {
-    height: 100px;
-}
 .header__nav-menu a {
     text-decoration: none;
     color: black;
-    
-    
+    display: flex;
 }
 .header__banner {
-    background: url(../img/background-header.png);
-    height: 320px;
+    background: url(../img/background.jpg);
     background-repeat: no-repeat;
+    height: 320px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+
+}
+
+.header-banner {
+    display: flex;
+    flex-direction: column;
 
 }
 
 .header__banner-title {
     color: white;
     align-items: center;
-
-
 }
 
 .header__banner-button {
-    width: 80px;
+    width: 120px;
+    height: 30px;
     background-color: #E9C98F;
     border-style: none;
     border-radius: 3px;
 }
 
 .services {
+display: flex;
+flex-direction: column;
+}
 
+.services-img {
+    width: 100px;
+}
+
+.services-title {
+
+    font-size: 32px;
+    font-family: 'Lato';
+    text-decoration: none;
+    align-content: center;
 }
