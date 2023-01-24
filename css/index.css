@@ -12,8 +12,10 @@
 }
 .header__banner {
     background: url(../img/background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 320px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,6 +32,8 @@
 .header__banner-title {
     color: white;
     align-items: center;
+    margin-bottom: 10px;
+    margin-left: 2%;
 }
 
 .header__banner-button {
@@ -38,21 +42,65 @@
     background-color: #E9C98F;
     border-style: none;
     border-radius: 3px;
+    margin-bottom: 30px;
+    margin-left: 2%;
 }
 
-.services {
-display: flex;
-flex-direction: column;
+.services div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: auto;
+    gap: 5px;
 }
 
 .services-img {
-    width: 100px;
+    width: 115px;
+    margin-left: 10px;
+    margin-top: 10px;
+
 }
 
 .services-title {
-
-    font-size: 32px;
+    font-size: 20px;
     font-family: 'Lato';
-    text-decoration: none;
-    align-content: center;
+    color: black;
+    text-decoration-line: none;
+    margin-left: 25px;
+}
+.services-h {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato';
+    padding-top: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-title {
+
+}
+.contacts-form {
+    background color: white;
+    border: solid #2F4E60;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 500px) {
+    .services div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-start: auto;
+        gap: 5px;
+    }
+}
+@media (min-width: 700px) {
+    .services div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-start: auto;
+        gap: 5px;
+    }
 }
