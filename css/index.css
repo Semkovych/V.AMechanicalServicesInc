@@ -15,15 +15,12 @@
     color: black;
 }
 .header__banner {
-    background: url(../img/background.jpg);
-    background-size: cover;
+    background: url(../img/background.jpg) 80%;
     background-repeat: no-repeat;
-    height: 320px;
-    width: auto;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-size: cover;
 
 }
 
@@ -34,8 +31,9 @@
 }
 
 .header__banner-title {
-    color: white;
+    color: #EFBE65;
     align-items: center;
+    font-size: 36px;
     margin-bottom: 10px;
     margin-left: 2%;
 }
@@ -43,7 +41,7 @@
 .header__banner-button {
     width: 120px;
     height: 30px;
-    background-color: #E9C98F;
+    background-color: #EFBE65;
     border-style: none;
     border-radius: 3px;
     margin-bottom: 30px;
@@ -76,6 +74,19 @@
     font-size: 25px;
     font-family: 'Lato';
     padding-top: 10px;
+}
+.about-us {
+
+}
+.about-title {
+    text-align: center;
+}
+.about-subtitle {
+
+}
+.img-about {
+    width: 300px;
+    height: 400px;
 }
 
 .contacts {
