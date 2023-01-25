@@ -5,10 +5,14 @@
     margin: 0;
 }
 
+.header__nav-menu {
+    display: flex;
+
+}
+
 .header__nav-menu a {
     text-decoration: none;
     color: black;
-    display: flex;
 }
 .header__banner {
     background: url(../img/background.jpg);
@@ -78,16 +82,20 @@
     display: flex;
     flex-direction: column;
 }
-.contacts-title {
+.contacts-title p {
+    font-size: 16px;
+    
 
 }
-.contacts-form {
-    background color: white;
-    border: solid #2F4E60;
+form {
     display: flex;
     flex-direction: column;
-}
-
+    justify-content: flex-start;
+    gap: 15px;
+    color: white;
+    margin-inline: auto;
+    padding-top: 20px;
+  }
 @media (min-width: 500px) {
     .services div {
         display: grid;
