@@ -24,35 +24,45 @@
     height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    
-    
-
+    justify-content: space-evenly;
 }
+
 @media (min-width: 600px) {
     .header__banner {
         min-height: 600px;
     }
 }
-
+@media (min-width: 1000px) {
+    .header__banner {
+        min-height: 1000px;
+    }
+}
 
 .header-banner {
     display: flex;
     flex-direction: column;
-
+    margin-left: 10px;
 }
 
 .header__banner-title {
-    color: black;
+    color: #EFBE65;
     align-items: center;
     font-size: 32px;
-    margin-left: 2%;
-    margin-bottom: 50px;
+    display: flex;
 }
+span {
+    border-block: solid;
+    writing-mode: horizontal-tb;
+}
+
 @media (min-width: 600px) {
     .header__banner-title {
         font-size: 48px;
+    }
+    @media (min-width:1000px) {
+        .header__banner-title {
+            font-size: 70px;
+        }
     }
 }
 .header__banner-button {
@@ -61,19 +71,22 @@
     background-color: gold;
     border-style: none;
     border-radius: 3px;
-    margin-left: 25px;
+   
 
 }
 @media (min-width: 600px) {
     .header__banner-button{
-        width: 150px;
-        height: 48px;
         font-size: 18px;
-
     }
-
 }
-
+@media (min-width: 1000px) {
+    .header__banner-button {
+        font-size: 34px;
+        width: 200px;
+        height: 70px;
+        border-radius: 5px;
+    }
+}
 .services a {
     text-decoration: none;
 }
@@ -83,7 +96,7 @@
     grid-row-start: auto;
     gap: 5px;
     padding-bottom: 30px;
-    padding-left: 20px;
+    padding-left: 80px;
 }
 
 .services-img {
@@ -113,6 +126,9 @@
     padding-top: 20px;
     font-size: 20px;
     gap: 20px;
+}
+.about {
+    justify-content: space-between;
 }
 .text {
     margin-top: 20px;
@@ -169,14 +185,7 @@ form {
     margin-inline: auto;
     padding-top: 20px;
   }
-@media (min-width: 500px) {
-    .services div {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-row-start: auto;
-        gap: 5px;
-    }
-}
+
 @media (min-width: 700px) {
     .services div {
         display: grid;
