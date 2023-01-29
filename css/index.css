@@ -167,6 +167,10 @@ span {
         height: 500px;    }
 }
 
+.contacts-area {
+    background-image: url(../img/background-area.jpg);
+    background-size: cover;
+}
 .contacts {
     display: flex;
     flex-direction: column;
@@ -174,7 +178,6 @@ span {
 .contacts-title p {
     font-size: 16px;
     
-
 }
 form {
     display: flex;
