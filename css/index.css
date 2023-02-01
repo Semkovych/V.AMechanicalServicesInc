@@ -17,7 +17,7 @@
 }
 
 .header__banner {
-    background: url(../img/background.jpg) no-repeat;
+    background: url(../img/background-home.jpg) no-repeat;
     background-attachment: scroll;
     background-position: 65% 35%;
     background-size: 100%;
@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 
 @media (min-width: 600px) {
     .header__banner {
@@ -49,6 +50,7 @@
     align-items: center;
     font-size: 32px;
     display: flex;
+    
 }
 span {
     border-block: solid;
@@ -68,7 +70,7 @@ span {
 .header__banner-button {
     width: 120px;
     height: 30px;
-    background-color: gold;
+    background-color: #EFBE65;
     border-style: none;
     border-radius: 3px;
    
@@ -168,8 +170,17 @@ span {
 }
 
 .contacts-area {
+    display: flex;
+    flex-direction: column;
     background-image: url(../img/background-area.jpg);
+    min-height: 300px;
     background-size: cover;
+}
+.area-title {
+    color: white;
+}
+.area {
+    color: white;
 }
 .contacts {
     display: flex;
@@ -196,4 +207,21 @@ form {
         grid-row-start: auto;
         gap: 5px;
     }
+}
+.projects-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-row: auto;
+}
+.projects-image {
+    width: 200px;
+    height: 350px;
+}
+
+.projects-title {
+    display: flex;
+    justify-items: center;
+}
+.contacts-us {
+    display: flex;
 }
