@@ -104,13 +104,14 @@ span {
 }
 .services a {
     text-decoration: none;
+    text-align: center;
 }
 .services div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
     gap: 20px;
-    padding-bottom: 30px;
-    padding-left: 80px;
+    padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 .services-img {
@@ -128,12 +129,24 @@ span {
     text-decoration-line: none;
     margin-left: 25px;
 }
+
 .services-h {
     text-align: center;
     font-size: 25px;
     font-family: 'Lato';
     padding-top: 10px;
 }
+@media (min-width: 900px) {
+    .services-h {
+        font-size: 36px;
+    }
+}
+b {
+    border-bottom: 4px solid rgba(239, 190, 101, 1);
+    padding: 0 0 7px;
+}
+
+
 
 .about {
     line-height: 30px;
@@ -141,8 +154,10 @@ span {
 .about-text {
     display: flex;
     flex-direction: column;
+    background: white;
     font-size: 16px;
     gap: 20px;
+    padding-right: 100px;
 }
 .text {
     margin-top: 30px;
@@ -153,7 +168,15 @@ span {
         justify-content: space-around;
     }
 }
-
+@media (min-width: 900px) {
+    .about-text {
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 150px;
+        margin-right: 80px;
+    }
+}
 
 .about-title {
     color: white;
@@ -161,14 +184,14 @@ span {
     font-size: 24px;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-color: #212F36;
 }
 .about-subtitle {
     text-align: center;
     font-family: 'Lato';
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 30px;
 
 }
@@ -178,6 +201,7 @@ span {
     }
     .about {
         font-size: 20px;
+        text-align:justify;
     }
 }
 .img-about {
@@ -192,13 +216,21 @@ span {
 }
 @media (min-width: 1000px) {
     .img-about {
-        width: 450px;
+        width: 420px;
         height: 500px;
-        margin-right: 50px;
+        margin-left: 70px;
+        margin-top: 30px;
     }
 }
 .about-button {
-
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    background-color: #EFBE65;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 30px;
 
 }
 .contacts-area {
