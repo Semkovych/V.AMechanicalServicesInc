@@ -127,7 +127,7 @@ span {
     color: #000000;
     font-weight: 700;
     text-decoration-line: none;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .services-h {
@@ -185,7 +185,7 @@ b {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 40px;
-    background-color: #212F36;
+    background-color: rgba(20, 29, 34, 1);
 }
 .about-subtitle {
     text-align: center;
@@ -233,6 +233,43 @@ b {
     margin-top: 30px;
 
 }
+
+.projects-title {
+    justify-content: center;
+}
+.projects-subtitle {
+    justify-content: center;
+}
+.our__projects-text {
+    margin-left: 50px;
+}
+.projects-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.projects-button {
+    background-color: rgba(239, 190, 101, 1);
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 60%;
+
+}
+@media (min-width: 600px) {
+    .projects-img img {
+        width: 230px;
+        height: 350px;
+
+    
+}
+
+
+
 .contacts-area {
     display: flex;
     flex-direction: column;
