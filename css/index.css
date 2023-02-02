@@ -308,14 +308,14 @@ b {
 .projects-line  {
     padding: 0 0 8px;
 }}
-.contacts{
+.contacts-area{
     background-image: url(../img/background-area.jpg);
     background-size: cover;
     min-width: 300px;
     background-position: 65% 35%;
 }
 @media (min-width: 900px) {
-    .contacts {
+    .contacts-area{
         min-width: 1200px;
         height: 550px;
         background-position: 50% 50%;
@@ -327,18 +327,31 @@ b {
     padding-top: 50px;
     padding-left: 30px;
 }
-.area {
+.area-subtitle {
     color: white;
     padding-left: 30px;
     line-height: 20px;
 }
+
 @media (min-width: 900px) {
     .area-title {
         font-size: 48px;
     }
-    .area {
+    .area-subtitle {
         font-size: 30px;
 }
+}
+.contact-us {
+    display: flex;
+    background-color: #000000;
+    block-size: 200px;
+    block-size: 5em;
+}
+
+.contacts-us-title {
+    margin-top: 10%;
+    padding-left: 300px;
+    
 }
 .form {
     width:400px;
@@ -349,6 +362,8 @@ b {
     padding:20px 30px;
     box-sizing: border-box;
     position:relative;
+    margin-left: 20%;
+    margin-top: 20px;
     
 }
  .form-title {
