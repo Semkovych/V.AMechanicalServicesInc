@@ -8,10 +8,6 @@
     font-family: 'Lato';
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
 
 .header__nav-menu {
     display: flex;
@@ -291,6 +287,10 @@ b {
     margin-bottom: 30px;
 
 }
+.projects-img img {
+    width: 120px;
+    height: 200px;
+}
 @media (min-width: 600px) {
     .projects-img img {
         width: 230px;
@@ -307,40 +307,90 @@ b {
 }
 .projects-line  {
     padding: 0 0 8px;
-}
-
-
-
-
-
-.contacts-area {
-    display: flex;
-    flex-direction: column;
+}}
+.contacts{
     background-image: url(../img/background-area.jpg);
+    background-size: cover;
+    min-width: 300px;
+    background-position: 65% 35%;
+}
+@media (min-width: 900px) {
+    .contacts {
+        min-width: 1200px;
+        height: 550px;
+        background-position: 50% 50%;
+    }
 }
 .area-title {
     color: white;
-    text-decoration: underline solid rgba(239, 190, 101, 1) ;
+    text-decoration: underline solid rgba(239, 190, 101, 1);
+    padding-top: 50px;
+    padding-left: 30px;
 }
 .area {
     color: white;
+    padding-left: 30px;
+    line-height: 20px;
 }
-.contacts {
-    display: flex;
-    flex-direction: column;
+@media (min-width: 900px) {
+    .area-title {
+        font-size: 48px;
+    }
+    .area {
+        font-size: 30px;
 }
-.contacts-title p {
-    font-size: 16px;
+}
+.form {
+    width:400px;
+    height: 460px;
+    background: white;
+    border-radius:8px;
+    border: solid #EFBE65;
+    padding:20px 30px;
+    box-sizing: border-box;
+    position:relative;
     
 }
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 15px;
-    color: white;
-    margin-inline: auto;
-    padding-top: 20px;
+ .form-title {
+    margin:10px 0;
+    padding-bottom:8px;
+    width:180px;
+    color: black;
+    border-bottom: 2px solid rgba(239, 190, 101, 1);
+}
+input {
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom: 1px solid black;
+}
+input:focus {
+    border-bottom:1px solid rgba(239, 190, 101, 1); 
+}
+p:before { 
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color: black;
+}
+button {
+    float: right;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 15px 0 0;
+    border: 2px solid rgba(239, 190, 101, 1);
+    background: 0;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s;
   }
-
-
+  button:hover {
+    background: rgba(239, 190, 101, 1);
+    color: #fff;
+  }
