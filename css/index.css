@@ -119,8 +119,6 @@ span {
     width: 115px;
     margin-left: 10px;
     margin-top: 20px;
-    margin-bottom: 10px;
-
 }
 
 .services-title {
@@ -147,7 +145,6 @@ b {
     border-bottom: 4px solid rgba(239, 190, 101, 1);
     padding: 0 0 7px;
 }
-
 
 
 .about {
@@ -251,7 +248,7 @@ b {
 .projects-title {
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .projects-subtitle {
     display: flex;
@@ -260,7 +257,7 @@ b {
     text-align: justify;
 }
 .our__projects-text {
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
 }
 .projects-img {
@@ -351,8 +348,8 @@ b {
 .contacts-us-title {
     margin-top: 10%;
     padding-left: 300px;
-    
 }
+
 .form {
     width:400px;
     height: 460px;
