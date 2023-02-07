@@ -51,14 +51,12 @@
 }
 .header-banner{
     margin-left: 20px;
-
 }
 
 .header__banner-title {
     color: #EFBE65;
     font-size: 32px;
     display: flex;
-    
 }
 span {
     border-block: solid 6px;
@@ -70,12 +68,13 @@ span {
     .header__banner-title {
         font-size: 48px;
     }
+}
     @media (min-width:1000px) {
         .header__banner-title {
             font-size: 70px;
         }
     }
-}
+
 .header__banner-button {
     font-size: 16px;
     font-weight: 700;
@@ -86,7 +85,6 @@ span {
     border-radius: 4px;
     margin-top: 10%;
     margin-bottom: 5%;
-
 }
 @media (min-width: 600px) {
     .header__banner-button{
@@ -134,7 +132,6 @@ span {
     text-align: center;
     font-size: 25px;
     font-family: 'Lato';
-    padding-top: 20px;
 }
 @media (min-width: 900px) {
     .services-h {
@@ -145,7 +142,6 @@ b {
     border-bottom: 4px solid rgba(239, 190, 101, 1);
     padding: 0 0 7px;
 }
-
 
 .about {
     line-height: 30px;
@@ -236,26 +232,27 @@ b {
     border-style: none;
     border-radius: 4px;
     margin-top: 30px;
-
 }
 
 .our-projects {
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-
 }
+
 .projects-title {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 .projects-subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
 }
+
 .our__projects-text {
     line-height: 20px;
     text-align: center;
@@ -293,6 +290,7 @@ b {
         width: 230px;
         height: 350px;
 }
+}
 @media (min-width: 900px) {
     .projects-img img {
         width: 255px;
@@ -304,7 +302,33 @@ b {
 }
 .projects-line  {
     padding: 0 0 8px;
-}}
+}
+.choose-us {
+    background-color: white;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.choose-title {
+    text-align: center;
+}
+.choose-subtitle {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 30px;
+    margin-top: 20px;
+}
+@media (min-width: 600px) {
+    .choose-title {
+        font-size: 36px;
+    }
+    .choose-subtitle {
+        font-size: 18px;
+    }
+}
+
 .contacts-area{
     background-image: url(../img/background-area.jpg);
     background-size: cover;
@@ -320,24 +344,25 @@ b {
 }
 .area-title {
     color: white;
-    text-decoration: underline solid rgba(239, 190, 101, 1);
-    padding-top: 50px;
-    padding-left: 30px;
+    text-decoration: underline solid 4px rgba(239, 190, 101, 1);
+    padding-top: 100px;
+    padding-left: 5%;
 }
 .area-subtitle {
     color: white;
-    padding-left: 30px;
+    padding-left: 5%;;
     line-height: 20px;
 }
 
 @media (min-width: 900px) {
     .area-title {
-        font-size: 48px;
+        font-size: 46px;
     }
     .area-subtitle {
         font-size: 30px;
 }
 }
+
 .contact-us {
     display: flex;
     background-color: #000000;
@@ -347,42 +372,54 @@ b {
 
 .contacts-us-title {
     margin-top: 10%;
-    padding-left: 300px;
+    padding-left: 10%;
+}
+
+.contacts-us-subtitle {
+    font-size: 18px;
+}
+@media (min-width: 600px) {
+    .contacts-us-subtitle {
+        font-size: 30px;
+    }
+    .contacts-us-title {
+        font-size: 30px;
+    }
 }
 
 .form {
     width:400px;
     height: 460px;
     background: white;
-    border-radius:8px;
+    border-radius: 8px;
     border: solid #EFBE65;
     padding:20px 30px;
     box-sizing: border-box;
-    position:relative;
+    position: relative;
     margin-left: 20%;
     margin-top: 20px;
     
 }
  .form-title {
-    margin:10px 0;
-    padding-bottom:8px;
-    width:180px;
+    margin: 8px 0;
+    padding-bottom: 5px;
+    width: 130px;
     color: black;
     border-bottom: 2px solid rgba(239, 190, 101, 1);
 }
 input {
-    width:100%;
-    padding:10px;
+    width: 100%;
+    padding: 10px;
     box-sizing: border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    transition:all .3s;
+    background: none;
+    outline :none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
     border-bottom: 1px solid black;
 }
 input:focus {
-    border-bottom:1px solid rgba(239, 190, 101, 1); 
+    border-bottom: 1px solid rgba(239, 190, 101, 1); 
 }
 p:before { 
     content:attr(type);
@@ -392,7 +429,6 @@ p:before {
     color: black;
 }
 button {
-    float: right;
     font-size: 16px;
     padding: 8px 15px;
     margin: 15px 0 0;
