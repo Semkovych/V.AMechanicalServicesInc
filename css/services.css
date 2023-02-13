@@ -1,6 +1,11 @@
-.header-services {
+.header_services {
     background: url(../img/background-services.jpg);
     background-position: 65% 35%;
-    background-size: 100%;
+    background-size: cover;
     height: 320px;
+}
+@media (min-width: 1000px) {
+    .header_services {
+        min-height: 700px;
+    }
 }
