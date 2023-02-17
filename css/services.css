@@ -95,6 +95,10 @@
     width: 120px;
     height: 200px;
 }
+.projects_gallery-imgv {
+    width: 120px;
+    height: 120px;
+}
 @media (min-width: 900px) {
     .projects_gallery {
         grid-template-columns: 1fr 1fr 1fr;
@@ -104,13 +108,17 @@
     .projects_gallery-img {
         width: 230px;
         height: 350px;
-}
+    }
+    .projects_gallery-imgv{
+        width: 315px;
+        height: 245px;
+    }
    .projects_gallery-title {
     font-size: 20px;
     line-height: 50px;
    }
    .projects_gallery-subtitle {
     margin-bottom: 10%;
-    
+
    }
 }
