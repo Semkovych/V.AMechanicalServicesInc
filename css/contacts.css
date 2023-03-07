@@ -40,11 +40,11 @@
 .header_contacts {
     background: url(../img/background-map.png);
     background-attachment: scroll;
-    background-position: 65% 35%;
-    background-size: 100%;
+    background-position: 45% 55%;
+    background-size: cover;
     height: 320px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
 }
 @media (min-width: 600px) {
@@ -56,4 +56,46 @@
     .header_contacts {
         min-height: 700px;
     }
+}
+
+.contacts_banner {
+    background-color: white;
+    width: 240px;
+    height: 120px;
+}
+@media (min-width: 900px) {
+    .contacts_banner {
+        width: 450px;
+        height: 800px;
+    }
+}
+.contacts-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+.contacts_banner-subtitle {
+    text-align: center;
+    font-size: 28px;
+    line-height: 60px;
+}
+b {
+    border-bottom: 3px solid rgba(239, 190, 101, 1);
+    padding: 0 0 3px;
+}
+.contacts-content-title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 5%;
+}
+.contacts-subtitle {
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 5%;
+}
+input {
+    width: 80%;
+    margin-left: 10%;
 }
