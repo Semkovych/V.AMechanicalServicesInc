@@ -77,6 +77,47 @@
         <img class="our-gallery-imgv" src="/img.gallery/Plumbing_29.jpg">
         <img class="our-gallery-imgv" src="/img.gallery/Plumbing_30.jpg">
        </section>
+       <div id="lightbox" class="lightbox">
+        <span class="lightbox-prev">&#9001;</span>
+        <img src="" alt="Big image">
+        <span class="lightbox-next">&#9002;</span>
+      </div>
+      <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = lightbox.querySelector('img');
+        const images = document.querySelectorAll('.our-gallery-img, .our-gallery-imgv');
+        const prevButton = lightbox.querySelector('.lightbox-prev');
+        const nextButton = lightbox.querySelector('.lightbox-next');
+        let currentIndex = 0;
+        images.forEach((image, index) => {
+      image.addEventListener('click', () => {
+        currentIndex = index;
+        showImageAtIndex(currentIndex);
+        lightbox.style.display = 'flex';
+      });
+    });
+    function showImageAtIndex(index) {
+      const image = images[index];
+      const imageSrc = image.getAttribute('src');
+      lightboxImage.setAttribute('src', imageSrc);
+    }
+    
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImageAtIndex(currentIndex);
+    });
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImageAtIndex(currentIndex);
+    });
+
+    lightbox.addEventListener('click', (event) => {
+if (event.target === lightbox) {
+lightbox.style.display = 'none';
+}
+});
+</script>
        <section class="contacts-area">
         <div class="contacts-area">
             <h2 class="area-title">Service Area </h2>
@@ -107,5 +148,6 @@
         </form>
     </section>
     </main>
+    
 </body>
 </html>
