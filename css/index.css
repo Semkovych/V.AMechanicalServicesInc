@@ -405,21 +405,19 @@ b {
         flex-direction: row;
     }
 }
+li {
+    list-style-type: none;
+   }
 
 .contacts-us-title {
-    margin-top: 10%;
-    padding-left: 10%;
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 20px;
 }
 
-.contacts-us-subtitle {
-    font-size: 18px;
-}
 @media (min-width: 600px) {
-    .contacts-us-subtitle {
-        font-size: 24px;
-    }
     .contacts-us-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
@@ -510,7 +508,8 @@ button {
     }
   }
   .contacts__list {
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-left: 15%;
   }
   .contacts__list-item:not(:last-child) {
     margin-bottom: 10px;
