@@ -509,4 +509,21 @@ button {
       margin: 12px 0 0;
     }
   }
-  
+  .contacts__list {
+    margin-top: 100px;
+  }
+  .contacts__list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .contacts__list-item a {
+    color: black;
+  }
+  .footer__icon {
+    margin-right: 10px;
+    color: #ffc123;
+    font-size: 23px;
+  }
+  .contacts__list-item a:hover {
+    color: black;
+    text-decoration: underline;
+  }
