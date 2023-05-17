@@ -57,7 +57,7 @@
 }
 @media (min-width: 1000px) {
     .header__banner {
-        min-height: 700px;
+        min-height: 550px;
     }
 }
 
@@ -72,7 +72,7 @@
 
 .header__banner-title {
     color: #EFBE65;
-    font-size: 32px;
+    font-size: 30px;
     display: flex;
 }
 span {
@@ -88,7 +88,7 @@ span {
 }
     @media (min-width:1000px) {
         .header__banner-title {
-            font-size: 70px;
+            font-size: 68px;
         }
     }
 
@@ -226,10 +226,10 @@ b {
 }
 @media (min-width: 1000px){
     .about-subtitle {
-        font-size: 20px;
+        font-size: 18px;
     }
     .about {
-        font-size: 20px;
+        font-size: 18px;
         text-align:justify;
     }
 }

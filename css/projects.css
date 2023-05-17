@@ -51,19 +51,19 @@
 }
 .service-title {
         color: #EFBE65;
-        font-size: 32px;
+        font-size: 30px;
         display: flex;
         align-items: center;
         text-align: center;
     }
     @media (min-width: 600px) {
         .service-title {
-            font-size: 48px;
+            font-size: 44px;
         }
     }
         @media (min-width:1000px) {
             .service-title {
-                font-size: 70px;
+                font-size: 76px;
             }
         }
 .main-projects_title {
@@ -71,7 +71,7 @@
     min-height: 320px;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 .projects_title {
     text-align: center;
@@ -82,7 +82,7 @@
 }
 @media (min-width: 900px) {
     .projects_title {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 50px;
     }
 }
@@ -118,7 +118,176 @@
     line-height: 50px;
    }
    .projects_gallery-subtitle {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
    }
 }
+.contacts-area{
+    background-image: url(../img/background-area.jpg);
+    background-size: cover;
+    min-width: 300px;
+    background-position: 65% 35%;
+}
+@media (min-width: 900px) {
+    .contacts-area{
+        min-width: 1000px;
+        height: 500px;
+        background-position: 50% 50%;
+    }
+}
+.area-title {
+    color: white;
+    text-decoration: underline solid 4px rgba(239, 190, 101, 1);
+    padding-top: 40px;
+    padding-left: 5%;
+}
+.area-subtitle {
+    color: white;
+    padding-left: 5%;
+    line-height: 5px;
+}
+
+@media (min-width: 900px) {
+    .area-title {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+    .area-subtitle {
+        font-size: 26px;
+        line-height: 15px;
+}
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    block-size: 200px;
+    block-size: 5em;
+}
+@media (min-width: 900px) {
+    .contact-us {
+        flex-direction: row;
+    }
+}
+li {
+    list-style-type: none;
+   }
+
+.contacts-us-title {
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    .contacts-us-title {
+        font-size: 22px;
+    }
+}
+
+.form {
+    width:400px;
+    height: 460px;
+    background: white;
+    border-radius: 8px;
+    border: solid #EFBE65;
+    padding:20px 30px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 20px;
+    
+}
+ .form-title {
+    margin: 8px 0;
+    padding-bottom: 5px;
+    width: 130px;
+    color: black;
+    border-bottom: 2px solid rgba(239, 190, 101, 1);
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline :none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
+    border-bottom: 1px solid black;
+}
+input:focus {
+    border-bottom: 1px solid rgba(239, 190, 101, 1); 
+}
+p:before { 
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color: black;
+}
+button {
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 15px 0 0;
+    border: 2px solid rgba(239, 190, 101, 1);
+    background: 0;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  button:hover {
+    background: rgba(239, 190, 101, 1);
+    color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    .contacts-area, .contact-us {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .form {
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    .form-title {
+      width: 100px;
+    }
+    
+    input {
+      padding: 8px;
+    }
+    
+    p:before {
+      font-size: 12px;
+      margin: 24px 0 0;
+    }
+    
+    button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin: 12px 0 0;
+    }
+  }
+  .contacts__list {
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .contacts__list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .contacts__list-item a {
+    color: black;
+  }
+  .footer__icon {
+    margin-right: 10px;
+    color: #ffc123;
+    font-size: 23px;
+  }
+  .contacts__list-item a:hover {
+    color: black;
+    text-decoration: underline;
+  }
