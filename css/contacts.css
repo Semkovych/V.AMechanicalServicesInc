@@ -11,10 +11,12 @@
 .header__nav {
     height: 60px;
 }
+
 .header-nav__menu {
     display: flex;
     flex-direction: column;
 }
+
 @media (min-width: 600px) {
     .header__nav > .header-menu {
         display: flex;
@@ -29,14 +31,17 @@
         margin-right: 10px;
     }
 }
+
 .menu-link {
     text-decoration: none;
     color: #000000;
 }
+
 .header__nav-logo img {
     width: 280px;
     height: 60px;
 }
+
 .header_contacts {
     background: url(../img/background-map.png);
     background-attachment: scroll;
@@ -47,11 +52,13 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
 @media (min-width: 600px) {
     .header_contacts {
         min-height: 400px;
     }
 }
+
 @media (min-width: 1000px) {
     .header_contacts {
         min-height: 700px;
@@ -62,33 +69,41 @@
     background-color: white;
     width: 240px;
     height: 120px;
+    display: none; 
 }
+
 @media (min-width: 900px) {
     .contacts_banner {
         width: 450px;
         height: 800px;
+        display: block;
     }
 }
+
 .contacts-title {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20%;
     margin-top: 20%;
 }
+
 .contacts_banner-subtitle {
     text-align: center;
     font-size: 28px;
     line-height: 60px;
 }
+
 b {
     border-bottom: 3px solid rgba(239, 190, 101, 1);
     padding: 0 0 3px;
 }
+
 .contacts-content-title {
     font-size: 36px;
     text-align: center;
     margin-top: 20px;
 }
+
 .contacts-subtitle {
     font-size: 28px;
     text-align: center;
@@ -97,11 +112,12 @@ b {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .input-container {
     margin-top: 40px;
 }
 
-input{
+input {
     box-sizing: border-box;
     color: black;
     font-size: 18px;
@@ -113,6 +129,7 @@ input{
     margin-left: 10%;
     border: solid rgba(239, 190, 101, 1);
 }
+
 button {
     font-size: 16px;
     padding: 8px 15px;
@@ -123,8 +140,33 @@ button {
     color: black;
     cursor: pointer;
     transition: all 0.4s;
-  }
-  button:hover {
+}
+
+button:hover {
     background: rgba(239, 190, 101, 1);
     color: #fff;
+}
+li {
+    list-style-type: none;
+   }
+   
+   .contacts__list {
+    margin-top: 10%;
+    margin-left: 10%;
+    line-height: 40px;
+  }
+   .contacts__list-item a {
+    color: black;
+    font-size: 23px;
+  }
+  .footer__icon {
+    margin-right: 10px;
+    color: #ffc123;
+    font-size: 23px;
+  }
+  .contacts__list-item a:hover {
+    color: black;
+  }
+  .list-subtitle {
+    font-size: 20px;
   }
