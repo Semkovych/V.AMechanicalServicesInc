@@ -41,6 +41,9 @@
     width: 260px;
     height: 50px;
 }
+a:hover {
+    text-decoration: underline;
+  }
 
 .gallery {
     background: url(../img.gallery/background.gallery.jpg);

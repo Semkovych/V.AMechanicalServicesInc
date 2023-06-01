@@ -42,6 +42,9 @@
     width: 260px;
     height: 50px;
 }
+a:hover {
+    text-decoration: underline;
+  }
 
 .header__banner {
     background: url(../img/background-home.jpg) no-repeat;

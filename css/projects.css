@@ -41,7 +41,9 @@
     width: 260px;
     height: 50px;
 }
-
+a:hover {
+    text-decoration: underline;
+  }
 .service {
     background: url(../img/background.service.jpg);
     background-position: 65% 35%;
@@ -57,7 +59,7 @@
 }
 .service-title {
         color: #EFBE65;
-        font-size: 30px;
+        font-size: 28px;
         display: flex;
         align-items: center;
         text-align: center;
