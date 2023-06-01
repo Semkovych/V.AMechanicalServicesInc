@@ -146,10 +146,6 @@ button:hover {
     background: rgba(239, 190, 101, 1);
     color: #fff;
 }
-li {
-    list-style-type: none;
-   }
-   
    .contacts__list {
     margin-top: 10%;
     margin-left: 10%;
@@ -170,3 +166,7 @@ li {
   .list-subtitle {
     font-size: 20px;
   }
+  li {
+    list-style-type: none;
+   }
+   
