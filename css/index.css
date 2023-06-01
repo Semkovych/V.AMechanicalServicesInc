@@ -526,3 +526,6 @@ button {
     color: black;
     text-decoration: underline;
   }
+  .container {
+    block-size: 500px;
+  }
