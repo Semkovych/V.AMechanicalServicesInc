@@ -169,4 +169,6 @@ button:hover {
   li {
     list-style-type: none;
    }
-   
+   .container {
+    block-size: 550px;
+  }

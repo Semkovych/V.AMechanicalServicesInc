@@ -11,13 +11,11 @@
 }
 .header-nav__menu {
     display: flex;
-    flex-direction: column;
 }
 @media (min-width: 600px) {
     .header__nav > .header-menu {
         display: flex;
     }
-
     .header-nav__menu {
         flex-direction: row;
         flex: 1;
@@ -290,4 +288,7 @@ button {
   .contacts__list-item a:hover {
     color: black;
     text-decoration: underline;
+  }
+  .container {
+    block-size: 550px;
   }

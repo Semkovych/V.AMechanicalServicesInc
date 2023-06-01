@@ -13,7 +13,8 @@
 }
 .header-nav__menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
 }
 @media (min-width: 600px) {
     .header__nav > .header-menu {
@@ -72,7 +73,7 @@
 
 .header__banner-title {
     color: #EFBE65;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
 }
 span {
@@ -527,5 +528,5 @@ button {
     text-decoration: underline;
   }
   .container {
-    block-size: 500px;
+    block-size: 550px;
   }

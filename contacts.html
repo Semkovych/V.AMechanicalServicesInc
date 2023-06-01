@@ -51,6 +51,7 @@
             </div>
         </section>
     <main>
+        <div class="container">
         <section class="contacts">
             <div class="contacts_content">
                 <h2 class="contacts-content-title">
@@ -63,16 +64,16 @@
                 </p>
             </div>
             <div class="contacts-form">
-                <form>
-                    <p type="Name:"><input placeholder="Name"></input></p>
-                    <p type="Phone number:"><input placeholder="Phone number"></imput></p>
-                    <p type="Email:"><input placeholder="Email"></input></p>
-                    <p type="Text"><input placeholder="Address"></input></p>
-                    <p type="Message:"><input placeholder="Comments"></input></p>
-                    <button>Submit</button>
+                <form action="https://formspree.io/f/xayzgyqj" method="post">
+                    <p type="Name:"><input type="text" name="Name:" placeholder="Write your name here.."></input></p>
+                    <p type="Phone number:"><input type="tell" name="phone number" placeholder="We will call you back soon.."></imput></p>
+                    <p type="Email:"><input type="text" name="Email" placeholder="Let us know how to contact you back.."></input></p>
+                    <p type="Message:"><input type="text" name="Message" placeholder="What would you like to tell us.."></input></p>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         </section>
+        </div>
     </main>
 </body>
 </html>

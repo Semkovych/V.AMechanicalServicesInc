@@ -354,3 +354,6 @@ button {
       .lightbox-next {
         right: 1rem;
       }
+      .container {
+        block-size: 550px;
+      }
