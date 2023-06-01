@@ -282,6 +282,11 @@ button {
     margin-top: 10%;
     margin-left: 15%;
   }
+  @media (max-width: 450px) {
+  .contacts__list {
+    margin-top: 15%;
+  }
+}
   .contacts__list-item:not(:last-child) {
     margin-bottom: 10px;
   }

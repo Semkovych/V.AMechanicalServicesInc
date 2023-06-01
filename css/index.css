@@ -181,10 +181,12 @@ b {
 .about-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: white;
     font-size: 16px;
     gap: 20px;
-    padding-right: 100px;
+    padding: 10px;
+
 }
 .text {
     margin-top: 30px;
@@ -271,6 +273,7 @@ b {
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .projects-title {
@@ -515,6 +518,12 @@ button {
   .contacts__list {
     margin-top: 10%;
     margin-left: 15%;
+  }
+  @media (max-width: 450px) {
+    .contacts__list {
+        margin-top: 15%;
+        margin-left: 15%;
+      }
   }
   .contacts__list-item:not(:last-child) {
     margin-bottom: 10px;
