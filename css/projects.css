@@ -33,6 +33,7 @@
         margin-right: 10px;
     }
 }
+
 .menu-link {
     text-decoration: none;
     color: #000000;
@@ -54,7 +55,7 @@ a:hover {
 }
 @media (min-width: 1000px) {
     .service {
-        min-height: 700px;
+        min-height: 550px;
     }
 }
 .service-title {
@@ -79,7 +80,7 @@ a:hover {
     min-height: 320px;
     display: flex;
     flex-direction: column;
-    margin-top: 55px;
+    margin-top: 50px;
 }
 .projects_title {
     text-align: center;

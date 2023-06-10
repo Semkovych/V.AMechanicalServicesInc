@@ -33,6 +33,7 @@
         margin-right: 10px;
     }
 }
+
 .menu-link {
     text-decoration: none;
     color: #000000;
@@ -47,7 +48,7 @@ a:hover {
 
 .gallery {
     background: url(../img.gallery/background.gallery.jpg);
-    background-position: 65% 35%;
+    background-position: 45% 65%;
     background-size: cover;
     height: 320px;
     display: flex;
@@ -55,7 +56,7 @@ a:hover {
 }
 @media (min-width: 1000px) {
     .gallery {
-        min-height: 700px;
+        min-height: 550px;
     }
 }
 .gallery-title {
