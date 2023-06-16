@@ -23,7 +23,7 @@
         display: flex;
     }
     .header__nav {
-        height: 60px;
+        height: 45px;
     }
 
     .header-nav__menu {
@@ -41,8 +41,8 @@
     color: #000000;
 }
 .header__nav-logo img {
-    width: 260px;
-    height: 50px;
+    width: 234px;
+    height: 45px;
 }
 a:hover {
     text-decoration: underline;
@@ -111,16 +111,16 @@ b {
 }
 
 .contacts-subtitle {
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
-    line-height: 50px;
-    margin-top: 3%;
+    line-height: 40px;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .input-container {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 input {
