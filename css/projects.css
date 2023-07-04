@@ -84,12 +84,16 @@ a:hover {
 }
 .projects_title {
     text-align: center;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 30px;
     padding-left: 10%;
     padding-right: 10%;
     font-weight: 400;
 }
 @media (min-width: 900px) {
+    .main-projects_title {
+        min-height: 250px;
+    }
     .projects_title {
         font-size: 18px;
         line-height: 30px;
@@ -109,6 +113,10 @@ a:hover {
     width: 120px;
     height: 120px;
 }
+.projects_gallery-title {
+    font-size: 12px;
+    line-height: 20px;
+}
 @media (min-width: 900px) {
     .projects_gallery {
         grid-template-columns: 1fr 1fr 1fr;
@@ -125,9 +133,11 @@ a:hover {
     }
    .projects_gallery-title {
     font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 20px;
    }
 }
-   .contacts-area{
+.contacts-area{
     background-image: url(../img/background-area.jpg);
     background-size: cover;
     min-width: 300px;
@@ -158,7 +168,7 @@ a:hover {
         padding-top: 100px;
     }
     .area-subtitle {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 15px;
 }
 }
@@ -282,10 +292,11 @@ button {
     margin-left: 15%;
   }
   @media (max-width: 450px) {
-  .contacts__list {
-    margin-top: 15%;
+    .contacts__list {
+        margin-top: 15%;
+        margin-left: 15%;
+      }
   }
-}
   .contacts__list-item:not(:last-child) {
     margin-bottom: 10px;
   }

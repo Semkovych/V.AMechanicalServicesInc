@@ -287,7 +287,7 @@ b {
 
 .projects-subtitle {
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     align-items: center;
     text-align: justify;
@@ -296,8 +296,9 @@ b {
 
 .our__projects-text {
     line-height: 30px;
-    text-align: center;
+    text-align: center
 }
+
 .projects-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -314,6 +315,11 @@ b {
     border-style: none;
     border-radius: 4px;
 
+}
+@media (max-width: 600px ) {
+.projects-image_text {
+    font-size: 14px;
+}
 }
 .projects-button {
     display: flex;
@@ -342,6 +348,7 @@ b {
     }
     .projects-subtitle {
     margin-left: 13%;
+    font-size: 18px;
     margin-right: 12%;
     text-align: center;
     }
@@ -351,11 +358,11 @@ b {
 }
 .choose-us {
     background-color: white;
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    min-height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
 .choose-title {
     text-align: center;
