@@ -78,10 +78,10 @@ a:hover {
         }
 .main-gallery_title {
     background: white;
-    min-height: 250px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .gallery_title {
     text-align: center;
@@ -90,6 +90,7 @@ a:hover {
     padding-left: 10%;
     padding-right: 10%;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 @media (min-width: 900px) {
     .gallery_title {
@@ -99,16 +100,19 @@ a:hover {
 }
 .our-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr;
+    justify-items: center;
     gap: 30px;
+    margin-bottom: 20px;
 }
 .our-gallery-img {
-    width: 120px;
-    height: 200px;
+    width: 200px;
+    height: 280px;
 }
 .our-gallery-imgv {
-    width: 120px;
-    height: 120px;
+    width: 260px;
+    height: 180px;
+
 }
 @media (min-width: 900px) {
     .our-gallery {

@@ -104,6 +104,7 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     margin-left: 15%;
     gap: 15px;
+    margin-bottom: 20px;
 }
 .projects_gallery-img {
     width: 120px;
@@ -133,7 +134,7 @@ a:hover {
     }
    .projects_gallery-title {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 20px;
    }
 }
