@@ -175,28 +175,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
                 <p>Message:</p>
                 <input name="message" placeholder="What would you like to tell us.." required>
-            
-                <!-- reCAPTCHA -->
-                <div class="g-recaptcha" data-sitekey="6LclbdAqAAAAACvbLTXLFLkcUr716_BdJLAxO-YT"></div>
-                <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse">
-                <button type="submit">Send Message</button>
+                 <!-- reCAPTCHA -->
+                 <button type="submit">Send Message</button>
+
             </form>
             
         </section>
         </div>
     </main>
-    <script>
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault(); // Зупиняємо стандартне відправлення
-    
-            grecaptcha.ready(function() {
-                grecaptcha.execute('6LclbdAqAAAAACvbLTXLFLkcUr716_BdJLAxO-YT', {action: 'submit'}).then(function(token) {
-                    document.getElementById('recaptchaResponse').value = token; // Додаємо токен в приховане поле
-                    document.getElementById("contact-form").submit(); // Відправляємо форму
-                });
-            });
-        });
-    </script>
-    
 </body>
 </html>
