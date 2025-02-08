@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <meta name="description" content="From simple repairs to major renovations! All types of Plumbing, Fire Sprinkler, Heating and Maintenance services in NYC! Call 929-355-1543 today!">
-    <title>Plumber in NY: Manhattan, Brooklyn, Queens, Staten Island | V&A Mechanical Services Inc
-</title>
+    <title>Plumber in NY: Manhattan, Brooklyn, Queens, Staten Island | V&A Mechanical Services Inc</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
@@ -164,29 +163,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
             </ul>
             <form id="contact-form" class="form" action="https://formspree.io/f/xayzgyqj" method="post">
-                <h2 class="form-title">Contact&nbsp;Us</h2>
-                <p type="Name:"><input type="text" name="Name" placeholder="Write your name here.." required></p>
-                <p type="Phone number:"><input type="tel" name="phone_number" placeholder="We will call you back soon.." required></p>
-                <p type="Email:"><input type="email" name="Email" placeholder="Let us know how to contact you back.." required></p>
-                <p type="Message:"><input type="text" name="Message" placeholder="What would you like to tell us.." required></p>
-        
+                <h2 class="form-title">Contact Us</h2>
+                
+                <p>Name:</p>
+                <input type="text" name="name" placeholder="Write your name here.." required>
+            
+                <p>Phone number:</p>
+                <input type="tel" name="phone_number" placeholder="We will call you back soon.." required>
+            
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Let us know how to contact you back.." required>
+            
+                <p>Message:</p>
+                <textarea name="message" placeholder="What would you like to tell us.." required></textarea>
+            
+                <!-- reCAPTCHA -->
                 <div class="g-recaptcha" data-sitekey="6LclbdAqAAAAACvbLTXLFLkcUr716_BdJLAxO-YT"></div>
-                <input type="hidden" name="_recaptcha" id="recaptchaResponse">
+                <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse">
+            
                 <button type="submit">Send Message</button>
             </form>
+            
         </section>
         </div>
     </main>
+    
+Iryna Semkovych <isemkovich39@gmail.com>
+    19:21 (0 хвилин тому)
+    кому мені
+    
     <script>
         document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault();
+            event.preventDefault(); // Зупиняємо стандартне відправлення
+    
             grecaptcha.ready(function() {
                 grecaptcha.execute('6LclbdAqAAAAACvbLTXLFLkcUr716_BdJLAxO-YT', {action: 'submit'}).then(function(token) {
-                    document.getElementById('recaptchaResponse').value = token;
-                    document.getElementById("contact-form").submit();
+                    document.getElementById('recaptchaResponse').value = token; // Додаємо токен в приховане поле
+                    document.getElementById("contact-form").submit(); // Відправляємо форму
                 });
             });
         });
     </script>
+    
 </body>
 </html>
