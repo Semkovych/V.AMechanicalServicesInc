@@ -16,7 +16,6 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5F42ZB9Q');</script>
-<title>reCAPTCHA demo</title>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -175,12 +174,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <input type="email" name="email" placeholder="Let us know how to contact you back.." required>
             
                 <p>Message:</p>
-                <textarea name="message" placeholder="What would you like to tell us.." required></textarea>
+                <input name="message" placeholder="What would you like to tell us.." required>
             
                 <!-- reCAPTCHA -->
                 <div class="g-recaptcha" data-sitekey="6LclbdAqAAAAACvbLTXLFLkcUr716_BdJLAxO-YT"></div>
                 <input type="hidden" name="g-recaptcha-response" id="recaptchaResponse">
-            
                 <button type="submit">Send Message</button>
             </form>
             
